@@ -614,7 +614,7 @@
     content: '';
     display: block;
     position: absolute;
-    right: 63%;
+    left: 20px;
     bottom: 20px;
     --status-height: 40px;
     font-size: 1.25rem;
