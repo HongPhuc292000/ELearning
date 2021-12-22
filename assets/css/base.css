@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+:root{
+    --primary-color: #2F327D;
+    --second-color: #F48C06;
+    --third-color: #65DAFF;
+    --text: #696984;
+    --text-dark: #252641;
+    --light-blue: #23BDEE;
+    --bg-primary: #ffffff;
+    --bg-second: #626381;
+    --font-primary: 'Mulish', sans-serif;
+}
