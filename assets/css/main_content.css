@@ -601,12 +601,42 @@
 }
 
 .similar-new__item{
+    position: relative;
     display: flex;
     align-items: center;
 }
 
 .similar-new__item ~ .similar-new__item{
     margin-top: 48px;
+}
+
+.similar-new__item::after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 63%;
+    bottom: 20px;
+    --status-height: 40px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    height: var(--status-height);
+    line-height: var(--status-height);
+    color: var(--text-dark);
+    background-color: #F4C467;
+    padding: 0 24px;
+    border-radius: 40px;
+}
+
+.similar-new__item:first-child:after{
+    content: 'PRESS RELEASE';
+}
+
+.similar-new__item:nth-child(2):after{
+    content: 'NEWS';
+}
+
+.similar-new__item:last-child:after{
+    content: 'NEWS';
 }
 
 .similar-new__item img{
